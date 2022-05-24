@@ -161,13 +161,15 @@ namespace Discord_Status_Rotater
             // SET UP
             int i = 0;
             timer.Interval = TimeSpan.FromMilliseconds(int.Parse(textBox3.Text) * 1000); //x is the amount of milliseconds you want between each method call
-
-            timer.Tick += (source, ae) =>
+            if (button1.Text == "Start!")
             {
-                changeStatus(strings[i], textBox1.Text);
-                i++;
-                if (i == strings.Length) i = 0;
-            };
+                timer.Tick += (source, ae) =>
+                {
+                    changeStatus(strings[i], textBox1.Text);
+                    i++;
+                    if (i == strings.Length) i = 0;
+                };
+            }
             timer.Start();
         }
 
