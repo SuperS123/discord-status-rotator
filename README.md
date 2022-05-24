@@ -32,6 +32,14 @@ The config file is saved in the same directory as the exe with the name `Discord
 ## Installation
 
 Head over to the [latest release](https://github.com/SuperS123/discord-status-rotator/releases/latest), download the zip, extract it and run the exe (make sure you don't delete any dependencies contained in the .zip)
+
+## Roadmap
+
+- Create themes (light/dark)
+
+- Create a [togglable] Discord RPC
+
+- Create a grab token button to automatically set token.
     
 ## License
 
