@@ -31,7 +31,7 @@ Please adhere to this project's `code of conduct`.
 The config file is saved in the same directory as the exe with the name `Discord Status Rotator.exe.Config`
 ## Installation
 
-Head over to the [latest release](https://github.com/SuperS123/discord-status-rotator/releases/latest), download the exe and double click it (make sure you don't delete any dependencies contained in the .zip)
+Head over to the [latest release](https://github.com/SuperS123/discord-status-rotator/releases/latest), download the zip, extract it and run the exe (make sure you don't delete any dependencies contained in the .zip)
     
 ## License
 
